@@ -7,7 +7,7 @@ This repository present how to set ELK Stack using docker.
 
 ## How to use this repository
 
-### Mandatory
+### Required
 If you want to run it, you have to :
 
 * Get Docker Desktop and run it
@@ -22,7 +22,7 @@ $ docker-compose up -d
 
 ### Run application with localhost
 
-If the mandatory points was check, you can acces Elasticsearch and Kibana using these links : 
+If the required points was check, you can acces Elasticsearch and Kibana using these links : 
 
 * Elasticsearch : localhost:9200
 * Kibana : localhost:5601
