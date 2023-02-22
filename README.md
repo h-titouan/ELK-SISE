@@ -24,8 +24,8 @@ $ docker-compose up -d
 
 If the mandatory points was check, you can acces Elasticsearch and Kibana using these links : 
 
-* [Elasticsearch] :localhost:9200
-* [Kibana] : localhost:5601
+* Elasticsearch : localhost:9200
+* Kibana : localhost:5601
 
 ### .env error :
 
