@@ -8,7 +8,7 @@ This repository present how to set ELK Stack using docker.
 ## How to use this repository
 
 ### Mandatory
-If you want to try it, you have to :
+If you want to run it, you have to :
 
 * Get Docker Desktop and run it
 * Get the files from the "docker" folder and save them in the folder you will use.
