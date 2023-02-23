@@ -16,8 +16,14 @@ If you want to run it, you have to :
 ### Setup 
 
 ```
-$ cd 'path/to/repository/folder'
+$ cd 'path/to/your/repository/folder'
 $ docker-compose up -d
+```
+
+As soon as you run this command, the docker-compose runs until you stop it from Docker Desktop or from the following command: 
+
+```
+$ docker-compose down
 ```
 
 ### Run application with localhost
