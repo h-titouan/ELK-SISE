@@ -15,6 +15,17 @@ services:
       memlock:
         soft: -1
         hard: -1
+
+  logstash:
+    build:
+      context: .
+      dockerfile: Dockerfile.logstash
+    container_name: logstash
+    ports:
+      - 5000:5000
+    depends_on:
+      - elasticsearch
+
   kibana:
     depends_on:
       - elasticsearch
@@ -31,4 +42,6 @@ volumes:
   elasticsearch-data:
     driver: local
   kibana-data:
+    driver: local
+  esdata:
     driver: local
