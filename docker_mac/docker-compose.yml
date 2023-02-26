@@ -10,11 +10,15 @@ services:
     restart: always
     environment:
       - xpack.security.enabled=false
+      - use_ssl:True
+      - ssl_no_validate:True
+
       - discovery.type=single-node
     ulimits:
       memlock:
         soft: -1
         hard: -1
+    
 
   kibana:
     depends_on:
