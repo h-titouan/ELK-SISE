@@ -13,15 +13,6 @@ If you want to run it with Windows or Linux, you have to :
 * Get Docker Desktop and run it
 * Get the files from the "docker" folder and save them in the folder you will use.
 
-If you want to run it with Mac, you have to :
-
-* Get Docker Desktop and run it
-* Get the files from the "docker_mac" folder and save them in the folder you will use.
-
-The docker-compose for Mac does not include logstash, since ELK does not maintain Logstash for Mac since version 8.0
-
-You can still use logstash for Mac, but it is not presented in this repository
-
 ### Setup 
 
 ```
