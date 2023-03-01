@@ -46,7 +46,3 @@ $ Error response from daemon: no such image: docker.elastic.co/elasticsearch/ela
 ```
 
 You just have to save it in the right folder and it will run.
-
-## References : 
-
-The docker-compose for Mac have been made from this source : [Elasticsearch and Kibana installation using Docker Compose](https://blog.devgenius.io/elasticsearch-and-kibana-installation-using-docker-compose-886c4823495e)
